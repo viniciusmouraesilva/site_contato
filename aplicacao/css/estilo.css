@@ -1,0 +1,284 @@
+/* butões das seções*/
+.button {
+	border: 0;
+	color: white;
+	background-color: #13a9ba;
+	padding: 10px 30px;
+	border-radius: 3px;
+	font-family: "Open Sans", Arial, sans-serif; 
+	font-size: 0.9em;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.button:hover {
+	background-color: rgba(333,333,333,0.2);
+}
+
+/* estilos do corpo */
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;	
+	color: #333;
+}
+
+/* cabeçalhos h*/
+h1, h2, h3 {
+	margin: 0;
+	font-family: sans-serif, arial;
+	font-weight: 500;
+}
+
+/* atributo universal que seleciona todos os elementos */
+* {
+	box-sizing: border-box;
+}
+
+/* seções */
+section[id] {
+	padding-top: 58px;
+}
+
+/* navegação */
+nav {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	background-color: #333;
+}
+
+nav > a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 28px;
+	font-family: arial, serif;
+	margin-bottom: 15px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+
+nav ul li a:hover{
+	background-color: rgba(333,333,333,0.3);
+}
+/* cabeçalho */
+header {
+	background-image: url('../imagens/tela_codigo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+}
+
+header p {
+	margin-bottom: 2em; 
+}
+
+/* Área de sobre */
+.sobre {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: #13a9ba;
+	color: white;
+	text-align: center;
+	padding-bottom: 58px;
+}
+
+.sobre p {
+	max-width: 1000px;
+	margin-bottom: 2em;
+	font-size: 1.2em;
+}
+
+.sobre h2 {
+	padding-top: 25px;	
+}
+
+.sobre .button {
+	background-color: white;
+	color: #333;
+	transition: 0.5s;
+}	
+
+.sobre .button:hover {
+	border: 3px solid black;
+}
+
+.sobre a {
+	color: #333;
+	text-decoration: none;
+}
+
+.sobre a:hover {
+	text-decoration: underline;
+}
+
+/* Área de Serviços */
+.servicos {
+	background-image: url('../imagens/work.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+.servicos h2 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.servicos p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.2em
+}
+
+/* contato */
+.contato {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+}
+
+.contato h2 {
+	margin-top: 15px;
+}
+
+.contato a {
+	display: block;
+	color: inherit;
+}
+
+.contato form {
+	display: flex;
+	flex-flow: column;
+	width: 90%;
+	margin-bottom: 30px;
+}
+
+input, select, textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.icone-contato:last-child {
+	margin-top: 10px;
+}
+
+.icone-contato a {
+	font-size: 0.9em;
+}
+
+[type="submit"]:hover {
+	background-color: #333;
+}
+
+/* rodapé */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: #13a9ba;
+	margin-top: 58px;
+}	
+
+/* todos p filhos de form*/
+form > p {
+	color: red;
+}
+
+/* media query */
+@media screen and (min-width: 768px) {
+	nav {
+		flex-flow: row;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		justify-content: space-around;
+		background-color: rgba(0,0,0,0.7);
+	}
+	
+	nav ul {
+		flex-flow: row;
+		width: 50%;
+	}
+	
+	header {
+		height: 100vh;
+		justify-content: center;
+	}
+	
+	.sobre {
+		justify-content: center;
+	}
+	
+	.servicos {
+		flex-flow: row wrap;
+		justify-content: center;
+		width: 100%;
+		flex: 1 1 180px;
+		padding: 0 10px;
+		margin-bottom: 10px;
+		height: 390px;
+	}
+	
+	.servicos h2 {
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+	}
+	
+	.servicos p {
+		padding: 0 10px;
+	}
+	
+	.contato {
+		flex-flow: row wrap;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	
+	.contato h2 {
+		text-align: center;
+		width: 100%;
+	}
+	
+	.icone-contato:last-child {
+		margin-top: 0; 
+	}
+}

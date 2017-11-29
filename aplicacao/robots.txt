@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /area_login
+
+User-agent: *
+Disallow: /css
+
+User-agent: * 
+Disallow: /helpers
+
+User-agent: * 
+Disallow: /view
+
+User-agent: *
+Disallow: /models
+
+User-agent: *
+Disallow: /imagens
+
+User-agent: *
+Disallow: /* $.htaccess
+
+User-agent: MJ12bot
+Crawl-Delay: 10

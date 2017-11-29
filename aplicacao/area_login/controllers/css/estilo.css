@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+/* classe mensagem */
+.mensagens {
+	display: flex;
+	flex-flow: column wrap;
+	width: 100%;
+	align-items: center;
+}
+
+/* h2 */
+h2 {	
+	font-family: sans-serif, arial, georgia, sans;
+	letter-spacing: 2px;
+}
+
+/* link */
+.mensagens a {
+	text-decoration: none;
+	color: white;
+	background-color: #333;
+	font-family: sans-serif, arial, georgia, sans;
+	font-size: 1.2em;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+/* p */
+.mensagens p {
+	font-size: 1.2em;
+	font-family: sans-serif, arial, georgia, sans;
+}
+
+.mensagem {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	width: 100%;
+}
+
+hr {
+	border: 1px solid black;
+	width: 50px;
+}
+
+/* menu */
+.menu a {
+	display: flex;
+	flex-flow: row wrap;
+	width: 15%;
+	text-decoration: none;
+	justify-content: center;
+	font-family: arial, sans-serif, sans;
+	font-size: 1.2em;
+	background-color: #f1f1f1;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 2px;
+	margin-bottom: 5px;
+	color: black;
+}

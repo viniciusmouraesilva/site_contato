@@ -1,0 +1,6 @@
+﻿Sessão de chave : $2y$10$trHkFqDpA7BPxXje55NeVek4D6yxPQvEMTqQthBsdBiXhzE9ZeA5a foi excluída com sucesso.
+Sessão de chave : $2y$10$NlEa6EUT6buCf5My16K8T.dwpIlcYw6d1MMg8Jz9wcRhDSIj4b12q foi excluída com sucesso.
+Sessão de chave : $2y$10$FFGwxfZ3jFr/lN0C/nrRN.fD0Ex1bhgXaPF7yt.wmOLHn25SGodOy foi excluída com sucesso.
+Sessão de chave : $2y$10$8zcAbZH5d.xbqIXet2q1BuW0GWxZ2Q0fZNTXnKZwhkiym3YuiQDpm foi excluída com sucesso.
+Sessão de chave : $2y$10$XCF.W4y6sEPLE1bXf9H4Q.SPk36GY8xNbyyArOyrjly87VJiHRLcq foi excluída com sucesso. 2017-11-29
+Sessão de chave : $2y$10$3wVPOX/GfyzozFs0TtDx3uuotv768bmUxE4g8BY2b0D.bCWWQWZum foi excluída com sucesso. 2017-11-29
